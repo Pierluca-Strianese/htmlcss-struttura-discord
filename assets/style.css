@@ -49,6 +49,44 @@ nav {
 
 .home {
     height: 300px;
-    width: 800px;
+    width: 600px;
     background-color: #EE82EF;
+}
+
+.pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.pagina:nth-child(odd) {
+    background-color: #D3D3D3;
+}
+
+.container2 {
+    display: flex;
+    width: 800px;
+    height: 100%;
+    background-color: black;
+}
+
+.block1 {
+    background-color: #1F90FF;
+    height: 100%;
+    width: 70%;
+}
+
+.block2 {
+    background-color: #FFC0CA;
+    height: 100%;
+    width: 30%;
+}
+
+.block3 {
+    background-color: green;
+    height: 600px;
+    width: 100%;
 }
