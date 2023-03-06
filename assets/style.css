@@ -16,36 +16,36 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 600px;
+    background-color: #DAA520;
+    width: 800px;
 }
 
 footer {
     display: flex;
-    align-items: flex-end;
     justify-content: center;
+    align-items: flex-end;
     background-color: #23272A;
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    border-top: 1px solid white;
+}
+
+.border {
+    border: 1px dashed black;
 }
 
 .logo {
     height: 25px;
-    width: 25%;
+    width: 20%;
 }
 
 .menu {
     height: 25px;
-    width: 50%;
+    width: 60%;
 }
 
 .login {
     height: 25px;
-    width: 25%;
-}
-
-.container {
-    background-color: #DAA520;
-    border: 1px dashed black;
+    width: 20%;
 }
 
 .home {
@@ -63,7 +63,6 @@ footer {
     padding-bottom: 2rem;
 }
 
-
 .pagina:nth-child(odd) {
     background-color: #D3D3D3;
 }
@@ -72,7 +71,7 @@ footer {
     background-color: #23272A;
 }
 
-.container2 {
+.container {
     display: flex;
     width: 800px;
     height: 100%;
@@ -83,39 +82,43 @@ footer {
     background-color: #1F90FF;
     height: 500px;
     width: 70%;
-    border: 1px dashed black;
 }
 
 .block2 {
     background-color: #FFC0CA;
     height: 500px;
     width: 30%;
-    border: 1px dashed black;
 }
 
 .block3 {
     background-color: green;
     height: 600px;
     width: 100%;
-    border: 1px dashed black;
 }
 
 .block4 {
     background-color: #F18080;
     height: 400px;
     width: 30%;
-    border: 1px dashed black;
 }
 
 .block5 {
     background-color: #1EB2AA;
     height: 400px;
     width: 17.5%;
-    border: 1px dashed black;
 }
 
-.block6 {
+.containerfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #7FFFD4;
-    height: 50px;
-    width: ;
+    height: 35px;
+    width: 800px;
+}
+
+.btn {
+    background-color: #D48E8C;
+    height: 20px;
+    width: 50px;
 }
