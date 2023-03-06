@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	height: 50px;
+	background-color: #ADD8E6;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.logo {
+    height: 25px;
+    width: 25%;
+}
+
+.menu {
+    height: 25px;
+    width: 50%;
+}
+
+.login {
+    height: 25px;
+    width: 25%;
+}
+
+.container {
+    background-color: #DAA520;
+    border: 1px dashed black;
+}
+
+.prima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00008B;
+    height: 400px;
+}
+
+.home {
+    height: 300px;
+    width: 800px;
+    background-color: #EE82EF;
+}
